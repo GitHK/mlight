@@ -4,12 +4,14 @@ from setuptools import setup, find_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 install_requires = [
-    "motor"
+    "motor",
+    "weakreflist"
 ]
 
-tests_require = [
-    'mock',
+# test dependencies
+setup_requires = [
     'nose',
+    'coverage',
 ]
 
 setup(
@@ -17,6 +19,6 @@ setup(
     version='0.0.1',
     packages=['mlight'],
     install_requires=install_requires,
-    tests_require=tests_require,
+    setup_requires=setup_requires,
     test_suite="nose.collector",
 )
