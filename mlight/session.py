@@ -21,7 +21,10 @@ class DBSession:
             self.registered_models.append(model)
 
     async def create_indexes(self):
-        """ Creates indexes on the registered collections. """
+        """
+        Creates indexes on the registered collections.
+        Note: If you removed an index it must be deleted from the database manually!
+        """
         for collection in self.registered_models:
             await collection.create_indexes()
 

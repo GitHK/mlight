@@ -1,5 +1,3 @@
-from pprint import pprint
-
 import pymongo
 from bson import ObjectId
 from nose import with_setup
