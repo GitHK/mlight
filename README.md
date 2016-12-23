@@ -1,12 +1,13 @@
-About
-=====
+What is this
+============
 
-Fast ORM like connection layer for motor.
+Light ORM layer on top of motor.
+
 
 TODO
 ====
 
-Indexes which are no longer declared should get automatically dropped.
+Indexes which are removed from the index model should be dropped.
 
 
 Running tests
@@ -15,3 +16,20 @@ Running tests
 Use the folloing command to start the test process:
 
     python setup.py nosetests
+    
+    
+Building docs
+=============
+
+Install requirements:
+
+    pip install sphinx
+
+Go to the documents directory:
+    
+    cd docs
+
+Run the following commands:
+
+    make clean
+    make html
