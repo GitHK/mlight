@@ -1,7 +1,7 @@
 What is this
 ============
 
-Light ORM layer on top of motor.
+Light ORM layer on top of motor inspired by ming.
 
 
 Documentation
