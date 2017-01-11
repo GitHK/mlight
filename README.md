@@ -4,10 +4,10 @@ What is this
 Light ORM layer on top of motor.
 
 
-TODO
-====
+Documentation
+=============
 
-Indexes which are removed from the index model should be dropped.
+http://mlight.readthedocs.io/en/latest/
 
 
 Running tests
